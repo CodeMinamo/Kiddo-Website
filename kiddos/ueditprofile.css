@@ -1,0 +1,74 @@
+body{
+	margin: 10px;
+	padding: 10px;
+	background-color: #FFEBCD;
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+.editprofile
+{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 450px;
+	height: 550px;
+	padding: 60px 30px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.user
+{
+	width: 90px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-50px);
+	left: calc(185px);
+
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 10px;
+	color: white;
+	text-align: center;
+}
+
+.ediprofile input
+{
+	width: 500%;
+	margin-bottom: 10px;
+}
+.editprofile input[type="hidden"],
+.editprofile input[type="text"],
+.editprofile input[type="password"],
+.editprofile input[type="file"]
+{
+       border: none;
+       border-bottom: 1px solid #fff;
+       background: transparent;
+       outline: none;
+       height: 40px;
+       color: #fff;
+       font-size: 16px;
+}
+
+.editprofile input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: blue;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.editprofile input[type="submit"]:hover
+{
+	background: orange;
+	color: black;
+}
